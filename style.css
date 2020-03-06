@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body{
+    font-family: 'Muli', sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.userMessage{
+    width: 50%;
+    height: 1.5rem;
+    margin-left: 1rem;
+    padding: 0.4rem;
+    border-radius: 3px;
+    visibility: hidden;
+}
+
+.success{
+    background-color: #48f542;
+}
+
+.error{
+    background-color: red;
+}
+
+.registerBook{
+    width: 50%;
+}
+
+.formInput{
+    width: 100%;
+    padding: 0.5rem;
+}
+
+input[type="text"], #submit{
+    box-sizing: border-box;
+    width: 100%;
+    height: 2rem;
+    padding: 0.2rem;
+    border: 0.5px solid grey;
+    border-radius: 2px;
+}
+
+#submit{
+    height: 2rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+
+label{
+    display: block;
+    padding-bottom: 0.5rem;;
+}
+
+table{
+    width: 50%;
+    margin-left: 1rem;
+}
+
+tr, th, td{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+th, td{
+    flex-grow: 1;
+    text-align: center;
+}
+
+tr td:nth-child(4){
+    cursor: pointer;
+}
+
+
